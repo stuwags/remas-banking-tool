@@ -50,6 +50,13 @@ table {
 	font-family: Verdana, sans-serif; 
 	font-weight: normal;
 }
+#main h3 {
+	font-size: 22px; 
+	color: #0098ca; 
+	font-family: Arial, 
+	sans-serif; 
+	font-weight: normal;}
+
 #gobutton {
 	background-image:url("../images/GoButton.jpg"); 
 	background-repeat:no-repeat; 
@@ -59,6 +66,16 @@ table {
 	float: center; 
 	margin-left: auto;
 	margin-right: auto;  
+}
+#espanol {
+	background-image:url("../images/espanol.jpg"); 
+	background-repeat:no-repeat; 
+	background-position:top; 
+	min-height: 65px; 
+	width: 65px; 
+	float: left;
+	margin-left: 130px;
+	margin-right: 130px;
 }
 #step {
 	font-size: 48px; 
@@ -173,6 +190,19 @@ table {
 	float: right; 
 	margin: 0px 20px; 
 }
+<<<<<<< HEAD
+#refinebutton {
+	background-image:url("../images/RefineButton.jpg"); 
+	background-repeat:no-repeat; 
+	background-position:bottom; 
+	min-height: 87px; 
+	width: 170px; 
+	float: center; 
+	margin-left: auto;
+	margin-right: auto;  
+	margin: 0px 20px; 
+}
+=======
 #USPassport{
 	background-image:url("../images/USPassport.jpg"); 
 	background-repeat:no-repeat; 
@@ -286,6 +316,7 @@ table {
 	
 }
 
+>>>>>>> 5a0fe2422901e6e8d2c17ba35cb5e24933d0de88
 #one {
 	background-image:url("../images/one.jpg"); 
 	background-repeat:no-repeat; 
@@ -308,6 +339,7 @@ table {
 	margin-left: 100px; 
 	width: 120px; 
 	height: 45px;} //Old Button
+
 #footer {text-align: center;}
 #footer {position: relative; float: right; left: -50%;}
 #footer ul {position: relative; left: 50%;}
@@ -348,6 +380,12 @@ table {
 	-webkit-border-bottom-right-radius: 12px;
 	border-top: none;
 	padding: 10px;}
+
+.margin_for_selector {
+	margin-left: 30px;
+	margin-top: 4px;
+
+}
 
 .roundy_bottom {
 	width: 520px; 
@@ -460,4 +498,31 @@ a {text-decoration: none; color: #00cc00;}
 .valid { margin-left:25%; color:#FF0000}
 #about_us form { } 
 .text { vertical-align:text-top; }
+
+
+
+
+#espanol {
+	background-image:url("../images/espanol.jpg"); 
+	background-repeat:no-repeat; 
+	background-position:top; 
+	min-height: 65px; 
+	width: 65px; 
+	float: left;
+	margin-left: 130px;
+	margin-right: 130px;
+}
+
+#refinebutton {
+	background-image:url("../images/RefineButton.jpg"); 
+	background-repeat:no-repeat; 
+	background-position:bottom; 
+	min-height: 87px; 
+	width: 170px; 
+	float: center; 
+	margin-left: auto;
+	margin-right: auto;  
+	margin: 0px 20px; 
+}
+
 
