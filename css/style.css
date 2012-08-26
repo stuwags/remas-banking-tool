@@ -13,6 +13,10 @@ form input[type=submit] {
 	color : transparent;
 	font-size : 0
 }
+table {
+	margin-left:  auto;
+	margin-right: auto;
+}
 #container {width: 970px; background-color: white; margin: 14px; margin-left: auto; margin-right: auto; padding: 10px;}
 #header {margin: 0px 12px;}
 #header_right {text-align: right; margin-top: 42px; font-size: 12px;}
@@ -142,6 +146,15 @@ form input[type=submit] {
 	float: left; 
 	margin: 0px 20px;
 }
+#IDCircle {
+	background-image:url("../images/IDCircle.jpg"); 
+	background-repeat:no-repeat; 
+	background-position:bottom; 
+	min-height: 87px; 
+	width: 87px; 
+	float: left; 
+	margin: 0px 20px;	
+}
 #interestedcircle {
 	background-image:url("../images/interestedcircle.jpg"); 
 	background-repeat:no-repeat; 
@@ -160,6 +173,119 @@ form input[type=submit] {
 	float: right; 
 	margin: 0px 20px; 
 }
+#USPassport{
+	background-image:url("../images/USPassport.jpg"); 
+	background-repeat:no-repeat; 
+	background-position:bottom; 
+	min-height: 117px; 
+	min-width: 180px; 
+	float: left; 
+	margin: 5px;
+}
+#NonUSPassport{
+	background-image:url("../images/NonUSPassport.jpg"); 
+	background-repeat:no-repeat; 
+	background-position:bottom; 
+	min-height: 117px; 
+	min-width: 180px; 
+	float: left; 
+	margin: 5px;
+}
+#MexicanConsular{
+	background-image:url("../images/MexicanConsular.jpg"); 
+	background-repeat:no-repeat; 
+	background-position:bottom; 
+	min-height: 117px; 
+	min-width: 180px; 
+	float: left; 
+	margin: 5px;
+}
+#StateLicense{
+	background-image:url("../images/StateLicense.jpg"); 
+	background-repeat:no-repeat; 
+	background-position:bottom; 
+	min-height: 117px; 
+	min-width: 180px; 
+	float: left; 
+	margin: 5px;
+}
+#StateID{
+	background-image:url("../images/StateID.jpg"); 
+	background-repeat:no-repeat; 
+	background-position:bottom; 
+	min-height: 117px; 
+	min-width: 180px; 
+	float: left; 
+	margin: 5px;
+	
+}
+#NonUSLicense{
+	background-image:url("../images/NonUSLicense.jpg"); 
+	background-repeat:no-repeat; 
+	background-position:bottom; 
+	min-height: 117px; 
+	min-width: 180px; 
+	float: left; 
+	margin: 5px;
+	
+}
+#Envelope{
+	background-image:url("../images/Envelope.jpg"); 
+	background-repeat:no-repeat; 
+	background-position:bottom; 
+	min-height: 117px; 
+	min-width: 180px; 
+	float: left; 
+	margin: 5px;	
+}
+#SchoolID{
+	background-image:url("../images/SchoolID.jpg"); 
+	background-repeat:no-repeat; 
+	background-position:bottom; 
+	min-height: 117px; 
+	min-width: 180px; 
+	float: left; 
+	margin: 5px;
+}
+#MilitaryID{
+	background-image:url("../images/Military.jpg"); 
+	background-repeat:no-repeat; 
+	background-position:bottom; 
+	min-height: 117px; 
+	min-width: 180px; 
+	float: left; 
+	margin: 5px;	
+}
+#Visa{
+	background-image:url("../images/visa.jpg"); 
+	background-repeat:no-repeat; 
+	background-position:bottom; 
+	min-height: 117px; 
+	min-width: 180px; 
+	float: left; 
+	margin: 5px;
+	}
+#Debit{
+	background-image:url("../images/Debit.jpg"); 
+	background-repeat:no-repeat; 
+	background-position:bottom; 
+	min-height: 117px; 
+	min-width: 180px; 
+	float: left; 
+	margin: 5px;
+	
+}
+#BirthCertificate{
+	background-image:url("../images/BirthCertificate.jpg"); 
+	background-repeat:no-repeat; 
+	background-position:bottom; 
+	min-height: 117px; 
+	min-width: 180px; 
+	float: left; 
+	margin: 5px;
+	
+}
+
 #one {
 	background-image:url("../images/one.jpg"); 
 	background-repeat:no-repeat; 
@@ -188,6 +314,9 @@ form input[type=submit] {
 #footer li {float:left; list-style: none; padding: 0 10px; border-right: 1px solid black; font-size: 11px;}
 #footer li:last-child {border-right: none;}
 #footer li a {color: black; text-decoration: none;}
+.idtext {
+	float: center;
+}
 .right 	{float: right;}
 .right h1 {font-size: 22px; color: #67A3DF; font-family: Arial, sans-serif; font-weight: normal;}
 .left	{float: left;}
