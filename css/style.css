@@ -96,6 +96,13 @@ form {
 	min-height: 85px; 
 	margin-left: 400px;
 }
+#done {
+	background-image: url("../images/DoneButton.jpg"); 
+	background-repeat:no-repeat; 
+	min-height: 70px; 
+	margin-left: 400px;
+	width:  182px;
+	}
 #map_canvas {
 	float: left; 
 	width: 400px; 
@@ -118,6 +125,15 @@ form {
 }
 #homeCircle {
 	background-image:url("../images/homeCircle.jpg"); 
+	background-repeat:no-repeat; 
+	background-position:bottom; 
+	min-height: 87px; 
+	width: 87px; 
+	float: left; 
+	margin: 0px 20px;
+}
+#moneyCircle {
+	background-image:url("../images/MoneyCircle.jpg"); 
 	background-repeat:no-repeat; 
 	background-position:bottom; 
 	min-height: 87px; 
