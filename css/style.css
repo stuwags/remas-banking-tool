@@ -5,6 +5,14 @@ h1 {font-size: 22px; color: #00A7DD; font-family: Arial, sans-serif; font-weight
 h2 {font-size: 16px; color: #00A7DD; font-family: Arial, sans-serif; font-weight: normal;}
 h3 {font-size: 12px; color: #646464;}
 hr {color: #ccc; background-color: #ccc; border-color: #ccc;}
+form input[type=submit] {
+	background : url("../images/DoneButton.jpg") no-repeat center center;
+	width : 182px;
+	height :70px;
+	border : none;
+	color : transparent;
+	font-size : 0
+}
 #container {width: 970px; background-color: white; margin: 14px; margin-left: auto; margin-right: auto; padding: 10px;}
 #header {margin: 0px 12px;}
 #header_right {text-align: right; margin-top: 42px; font-size: 12px;}
@@ -81,13 +89,6 @@ hr {color: #ccc; background-color: #ccc; border-color: #ccc;}
 #list {
 	width: 200px;
 	float: right;
-	margin-left: 40px;
-}
-form {
-	font-size: 22px; 
-	color: #363636; 
-	font-family: Verdana, sans-serif; 
-	font-weight: normal;
 	margin-left: 40px;
 }
 #next {

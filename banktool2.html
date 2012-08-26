@@ -4,8 +4,16 @@
 <title>Rem&aacute;s: sending more back</title>
 <script src="//ajax.googleapis.com/ajax/libs/jquery/1.4/jquery.min.js"></script>
 <script src="js/scripts.js"></script>
+<script type="text/javascript" src="jqtransformplugin/jquery.jqtransform.js" ></script>
+<script language="javascript">
+	$(function(){
+		$('form').jqTransform({imgPath:'jqtransformplugin/img/'});
+	});
+</script>
+
 <!--Styling So Hard-->
 <link href="css/style.css" rel="stylesheet" type="text/css" />
+<link rel="stylesheet" href="jqtransformplugin/jqtransform.css" type="text/css" media="all" />
 <link rel="icon" href="images/favicon.png" />
 <!--End Styles-->
 </head>
@@ -49,40 +57,24 @@
 <!--Begin Title-->
 	<div id="main"><h1><span id="step">Step 2 of 5:</span> What is your address or zip code?</h1><br><br>
 	<!--Begin Address Form-->
-		<form>
-		<table width="100%">
-		<tr>
-		<td width="50%">
-		<font size="2">Address:</font></td>
-		<td width="50%">
-		<input type="text" size="20" name="name"></td>
-		</tr>
-		<tr>
-		<td width="50%">
-		<font size="2">Zip Code:</font></td>
-		<td width="50%">
-		<input type="text" size="20" name="name"></td>
-		</tr>
-		</table>
-		</form>
-		<br>
-	<!--End Address Form-->
+		<form action="post.php" method="POST">
+			<div class="rowElem">
+				<label>Address:</label>
+					<input type="text" name="inputtext"/><br><br>
+				<label>Zip Code:</label>
+					<input type="text" name="inputtext"/>
+			</div>
+			<!--End Address Form-->
 	<h1 style="text-align:center">or</h1><br>
 	<!--Begin Zip Code Form-->
-		<form>
-		<table width="100%">
-		<tr>
-		<td width="50%">
-		<font size="2">Zip Code:</font></td>
-		<td width="50%">
-		<input type="text" size="20" name="name"></td>
-		</tr>
-		</table>
-		</form>
-		<br><br>
+		<div class="rowElem">
+			<label>Zip Code:</label>
+				<input type="text" name="inputtext"/>
+		</div>
 	<!--End Zip Code Form-->
 		<!--Next Button-->
 		<a href="" alt="Next"><div id="next"></div></a>
+	</form>
 	</div>
 <!--End Title-->
 <!--Begin Right Sidebar-->

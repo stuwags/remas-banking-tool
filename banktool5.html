@@ -4,8 +4,16 @@
 <title>Rem&aacute;s: sending more back</title>
 <script src="//ajax.googleapis.com/ajax/libs/jquery/1.4/jquery.min.js"></script>
 <script src="js/scripts.js"></script>
+<script type="text/javascript" src="jqtransformplugin/jquery.jqtransform.js" ></script>
+<script language="javascript">
+	$(function(){
+		$('form').jqTransform({imgPath:'jqtransformplugin/img/'});
+	});
+</script>
+
 <!--Styling So Hard-->
 <link href="css/style.css" rel="stylesheet" type="text/css" />
+<link rel="stylesheet" href="jqtransformplugin/jqtransform.css" type="text/css" media="all" />
 <link rel="icon" href="images/favicon.png" />
 <!--End Styles-->
 </head>
@@ -49,9 +57,10 @@
 <!--Begin Title-->
 	<div id="main"><h1><span id="step">Step 5 of 5:</span> About how much can you deposit to start the account?</h1><br><br>
 	<!--Begin Form-->
-		<form action=\"myprocess.php\">
-			<select name=\"DepositForm\">
-			  <option value="">Select Amount</option>
+		<form action=\"myprocess.php\" method="">
+			<div class="rowElem">
+			<label>Select Amount</label>
+			<select name="select2">
 			  <option value="A">$0 - $50</option>
 			  <option value="B">$51 - $100</option>
 			  <option value="C">$101 - $250</option>
@@ -59,11 +68,11 @@
 			  <option value="E">$500+</option>
 			  <option value="F">Not Sure</option>
 			</select>
-		</form>
+	</div>
 		<br><br>
-	<!--End Form-->
 		<!--Done Button-->
 		<a href="" alt="Done"><div id="done"></div></a>
+	</form> <!--End Form-->
 	</div><!--End Title-->
 <!--Begin Right Sidebar-->
 	<div id="sidebar">

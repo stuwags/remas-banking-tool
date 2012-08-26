@@ -4,8 +4,16 @@
 <title>Rem&aacute;s: sending more back</title>
 <script src="//ajax.googleapis.com/ajax/libs/jquery/1.4/jquery.min.js"></script>
 <script src="js/scripts.js"></script>
+<script type="text/javascript" src="jqtransformplugin/jquery.jqtransform.js" ></script>
+<script language="javascript">
+	$(function(){
+		$('form').jqTransform({imgPath:'jqtransformplugin/img/'});
+	});
+</script>
+
 <!--Styling So Hard-->
 <link href="css/style.css" rel="stylesheet" type="text/css" />
+<link rel="stylesheet" href="jqtransformplugin/jqtransform.css" type="text/css" media="all" />
 <link rel="icon" href="images/favicon.png" />
 <!--End Styles-->
 </head>
@@ -49,8 +57,26 @@
 <!--Begin Title-->
 	<div id="main"><h1><span id="step">Step 4 of 5:</span> Do you have a SSN or an ITIN?</h1><br><br>
 	<!--Begin Form-->
-		<form>
-	
+		<form class="jqtransform jqtransformdone">
+			<div class="rowElem">
+			<label>Social Security Number (SSN):</label> 
+				<span class="jqTransformRadioWrapper">
+						<label>Yes</label><input type="radio" id="" name="question" value="yes" >
+				</span>
+				<span class="jqTransformRadioWrapper">
+						<label>No</label><input type="radio" id="" name="question" value="no" >
+				</span>
+			</div><br><br>
+			<div class="rowElem">
+			<label>Individual Taxpayer Identification Number (ITIN):</label> 
+				<span class="jqTransformRadioWrapper">
+						<label>Yes</label><input type="radio" id="" name="question" value="yes" >
+				</span>
+				<span class="jqTransformRadioWrapper">
+						<label>No</label><input type="radio" id="" name="question" value="no" >
+				</span>
+			</div>
+			</form>
 		</form>
 		<br><br>
 	<!--End Form-->
