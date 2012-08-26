@@ -49,8 +49,16 @@
 <!--Begin Title-->
 	<div id="main"><h1><span id="step">Step 5 of 5:</span> About how much can you deposit to start the account?</h1><br><br>
 	<!--Begin Form-->
-		<form>
-	
+		<form action=\"myprocess.php\">
+			<select name=\"DepositForm\">
+			  <option value="">Select Amount</option>
+			  <option value="A">$0 - $50</option>
+			  <option value="B">$51 - $100</option>
+			  <option value="C">$101 - $250</option>
+			  <option value="D">$251 - $500</option>
+			  <option value="E">$500+</option>
+			  <option value="F">Not Sure</option>
+			</select>
 		</form>
 		<br><br>
 	<!--End Form-->
