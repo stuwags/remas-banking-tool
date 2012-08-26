@@ -4,10 +4,19 @@
 <title>Rem&aacute;s: sending more back</title>
 <script src="//ajax.googleapis.com/ajax/libs/jquery/1.4/jquery.min.js"></script>
 <script src="js/scripts.js"></script>
+<script type="text/javascript" src="jqtransformplugin/jquery.jqtransform.js" ></script>
+<script language="javascript">
+	$(function(){
+		$('form').jqTransform({imgPath:'jqtransformplugin/img/'});
+	});
+</script>
+
 <!--Styling So Hard-->
 <link href="css/style.css" rel="stylesheet" type="text/css" />
+<link rel="stylesheet" href="jqtransformplugin/jqtransform.css" type="text/css" media="all" />
 <link rel="icon" href="images/favicon.png" />
 <!--End Styles-->
+
 </head>
 <!--Begin Body-->
 <body>
@@ -47,7 +56,7 @@
 <!--Begin Main Content-->
 <div id="wrap">
 <!--Begin Title-->
-	<div id="main"><h1><span id="step">Step 1 of 5:</span> What languages are you most comfortable in?</h1><br>
+	<div id="main"><h1><span id="step">Step 1 of 5:</span> What language(s) are you most comfortable in?</h1><br>
 	<!--Begin Language CheckBox-->
 		<form action="">
 			<input type="checkbox" name="language" value="English" /> English<br><br>
